@@ -5,6 +5,8 @@ from pathlib import Path
 import pandas as pd
 import plotly.graph_objects as go
 import time
+import streamlit as st
+st.write("Hello, Streamlit is running!")
 
 # --- Page Config & Custom CSS ---
 st.set_page_config(layout="wide", page_title="Resume Checker", page_icon="📄")
@@ -598,4 +600,5 @@ else:
     elif st.session_state.role == "user":
         show_user_portal()
     else:
+
         st.warning("Invalid role. Please contact support.")
