@@ -13,4 +13,7 @@ rapidfuzz
 streamlit
 requests
 python-dotenv
+plotly
+pandas
 google.generativeai
+
