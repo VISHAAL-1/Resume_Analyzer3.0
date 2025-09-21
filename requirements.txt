@@ -13,3 +13,4 @@ rapidfuzz
 streamlit
 requests
 python-dotenv
+google.generativeai
